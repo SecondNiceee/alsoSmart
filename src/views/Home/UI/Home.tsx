@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import "./styles/_index.scss";
 import dynamic from 'next/dynamic';
@@ -49,8 +50,8 @@ export const Home = () => {
                 <HowOrder />
                 <SmartcardioSlider />   
                 <Feedbacks />
-                <Generation />
                 <Recomendation />
+                <Generation />
                 <Advantages />
                 <Sertifications />
                 <FooterOrder />
