@@ -1,3 +1,4 @@
+import { routes } from "@/shared/config/routes";
 import OrderButton from "@/shared/UI/OrderButton/OrderButton";
 import { CHARACTER } from "@/shared/UI/Reveal/models/CharacterEnum";
 import Reveal from "@/shared/UI/Reveal/Reveal";
@@ -21,7 +22,7 @@ const Generation = () => {
 
                 <Reveal character={CHARACTER.RIGHT} className='relative'>
                     <div className="bg-black w-4/5 rounded-3xl left-1/2 h-[1px] absolute top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
-                    <OrderButton externalLink='https://www.youtube.com/@smart_cardio' className='w-[100%] relative z-50 max-w-[70%] md:max-w-[500px] bg-[#ffffff] py-[11px] md:py-[18px] px-[14px] mx-auto border-solid border-2 scale-hover'  >
+                    <OrderButton link={routes.store} className='w-[100%] relative z-50 max-w-[70%] md:max-w-[500px] bg-[#ffffff] py-[11px] md:py-[18px] px-[14px] mx-auto border-solid border-2 scale-hover'  >
                         <span className='button-p'>Заказать</span>
                     </OrderButton>
                 </Reveal>
