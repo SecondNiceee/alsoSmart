@@ -17,7 +17,7 @@ const Generation = () => {
 
                 <Reveal character={CHARACTER.LEFT} className="relative">
                     <div className="w-full left-1/2 -translate-x-1/2 max-w-[880px] h-full blur-3xl opacity-10 absolute  bg-[#5100FD] "/>
-                    <Image  width={1000} height={1000} alt="generation" className='max-w-[880px] rounded-2xl w-full object-cover h-[300px] sm:h-[400px] md:h-[500px] mx-auto relative z-30'  src={"/images/generation.jpg"}  />
+                    <Image  width={1400} height={1400} alt="generation" className='max-w-[880px] rounded-2xl w-full object-cover h-[300px] sm:h-[400px] md:h-[500px] mx-auto relative z-30'  src={"/images/generation.png"}  />
                 </Reveal>
 
                 <Reveal character={CHARACTER.RIGHT} className='relative'>
